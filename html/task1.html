@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EDU PORTAL</title>
+
+    </head>
+   2 <body>
+        <img src="/Users/yashu/Downloads/edu.avif" alt="Edu Portal Logo" style="display: block; margin-left: auto; margin-right: auto; width: 100px;">
+        <h1 style="text-align: center;">Edu Portal</h1>
+        <h2 style="text-align: center;">Welcome Back</h2>
+        <h5 style="text-align: center;">Sign In To Continue</h5>
+        <hr>
+        <div style="width: 300px; margin: 0 auto;">
+            
+        <form action="/submit" method="post">
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required placeholder="Enter your email"><br><br>
+            <label for="password">Password :</label><br>
+            <input type="password" id="password" name="password" required placeholder="Enter your password"><br><br>
+            <input type="checkbox" id="remember" name="remember">
+            <label for="remember" style="display: inline-block; margin-right: 50px;"> Remember Me</label>
+            <a href="/forgot-password">Forgot Password?</a><br><br>
+            <input type="submit" value="Login"><br><br>
+            <label for="signup">Don't have an account?</label>
+            <a href="/signup">Sign Up</a><br><br>
+            </div>
+            <hr>
+            <p style="text-align: center;">Or Login With</p>
+            <div style="text-align: center;">
+               <input type="button" value="Google" onclick="window.location.href='/auth/google'">
+               <input type="button" value="LinkedIn" onclick="window.location.href='/auth/linkedin'">
+               <input type="button" value="GitHub" onclick="window.location.href='/auth/github'">
+            </div>
+            <hr>
+            <p style="text-align: center;">&#169; 026 Edu Portal. All rights reserved.</p>
+        </form>
+    </body>
+</html>

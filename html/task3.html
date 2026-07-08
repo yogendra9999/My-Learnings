@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Dashboard</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td >
+                    <h1>EduPortal</h1>
+                </td>
+                <td width="400"></td>
+                <td>
+                    <h1>Student Portal</h1>
+                </td>
+                <td width="400"></td>
+                <td>
+         <a href="/Home" >Home</a> |
+        <a href="/Dashboard" >Dashboard</a> |
+        <a href="/Profile" >Profile</a> |
+        <a href="/Logout" >Logout</a><br><br>
+                </td>
+            </tr>
+        </table>
+        <hr style="width: 100%; margin: auto; border: 0.5px solid black;"><br>
+        <table>
+            
+            <tr>
+                <td border="1" cellpadding="15" style="vertical-align: top;">
+        <table border="1" cellpadding="15" style="border-collapse: collapse;" >
+            <tr>
+                <td>
+        <h2 style="text-align: center">Welcome Back</h2>
+        <h4 style="text-align: center">Sign in to continue</h4>
+        <hr style="width: 100%; margin: auto; border: 0.5px solid black;"><br>
+      <div style="width: 300px; margin: auto;">
+        <form action="/submit" method="post">
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter your password"><br><br>
+            <input type="checkbox" id="remember" name="remember">
+            <label for="remember" style="display: inline-block; margin-right: 50px;">Remember Me</label>
+            <br><br>
+            <label for="forgot"><a href="#">Forgot Password?</a></label><br><br>
+            <input type="submit" value="Login"><br><br>
+            <label for="signup">Don't have an account? <a href="#">Sign Up</a></label><br><br>
+            </div>
+            <hr style="width: 100%; margin: auto; border: 0.5px solid black;">
+        
+            <p style="text-align: center">Or Login with</p>
+            <div style="text-align: center;">
+                
+            <input type="button" value="Google" onclick="window.location.href='https://accounts.google.com/signin'"><br><br>
+            <input type="button" value="LinkedIn" onclick="window.location.href='https://www.linkedin.com/login'"><br><br>
+            <input type="button" value="GitHub" onclick="window.location.href='https://github.com/login'"><br><br>
+            </div>     
+        </form>
+                </td>
+                </tr>
+                </table>
+    </td>
+    </td>    
+    <td>
+        <table>
+            <tr>
+                <td>
+                    <h2>Student Profile</h2>
+                    <table width=100%>
+                        <tr>
+                            <td>
+                        <table border="1" cellpadding="40" style="border-collapse: collapse;">
+                        <tr>
+                            <td>Photo</td>
+                        </tr>
+                        </table>
+                        </td>
+                        <td>&nbsp;&nbsp;&nbsp;</td>
+
+                        <td>
+
+                        <table>
+                        <tr>
+                            <td>Name</td>
+                            <td>:</td>
+                            <td>Rahul Sharma</td>
+                        </tr>
+                        <tr>
+                            <td>Roll Number</td>
+                            <td>:</td>
+                            <td>22CS101</td>
+                        </tr>
+                        <tr>
+                            <td>Department</td>
+                            <td>:</td>
+                            <td>Computer Science</td>
+                        </tr>
+                        <tr>
+                            <td>Semester</td>
+                            <td>:</td>
+                            <td>4th Semester</td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>:</td>
+                            <td>rahul@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td>
+                            <td>:</td>
+                            <td>9876543210</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+                </td>
+                <td>
+                    <h2>Academic Summary</h2>
+                    <table border="1" style="width: 100%; margin-top: 20px; border-collapse: collapse;">
+                        <tr>
+                            <th style="text-align: center;">Attribute</th>
+                            <th style="text-align: center;">Details</th>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">CGPA</td>
+                            <td style="text-align: center;">8.45</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">Total Credits</td>
+                            <td style="text-align: center;">80</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">Completed Credits</td>
+                            <td style="text-align: center;">64</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">Backlogs</td>
+                            <td style="text-align: center;">0</td>
+                        </tr>
+                    </table>
+                </td>
+            </table>
+            <h2>Current Semester Subjects</h2>
+            <table border="1" style="width: 80%; margin-top: 20px; text-align: center; border-collapse: collapse;">
+                <tr>
+                    <th style="text-align: center;">S.No</th>
+                    <th style="text-align: center;">Subject Code</th>
+                    <th style="text-align: center;">Subject Name</th>
+                    <th style="text-align: center;">Faculty</th>
+                    <th style="text-align: center;">Credits</th>
+                    <th style="text-align: center;">Status</th>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">1</td>
+                    <td style="text-align: center;">CS401</td>
+                    <td style="text-align: center;">Data Structures</td>
+                    <td style="text-align: center;">Prof. Mehta</td>
+                    <td style="text-align: center;">4</td>
+                    <td style="text-align: center;">On Going</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">2</td>
+                    <td style="text-align: center;">CS402</td>
+                    <td style="text-align: center;">Database Management Systems</td>
+                    <td style="text-align: center;">Prof. Iyer</td>
+                    <td style="text-align: center;">4</td>
+                    <td style="text-align: center;">On Going</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">3</td>
+                    <td style="text-align: center;">CS403</td>
+                    <td style="text-align: center;">Operating Systems</td>
+                    <td style="text-align: center;">Prof. Khan</td>
+                    <td style="text-align: center;">4</td>
+                    <td style="text-align: center;">On Going</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">4</td>
+                    <td style="text-align: center;">CS404</td>
+                    <td style="text-align: center;">Computer Networks</td>
+                    <td style="text-align: center;">Prof. Vema</td>
+                    <td style="text-align: center;">4</td>
+                    <td style="text-align: center;">On Going</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">5</td>
+                    <td style="text-align: center;">CS405</td>
+                    <td style="text-align: center;">Web Technologies</td>
+                    <td style="text-align: center;">Prof. Sinha</td>
+                    <td style="text-align: center;">4</td>
+                    <td style="text-align: center;">On Going</td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                <td style="width: 50%; vertical-align: top;">
+            <h2>Attendance Overview</h2>
+            <table border="1" style="width: 100%; margin-top: 20px; text-align: center; border-collapse: collapse;">
+                <tr>
+                    <th style="text-align: center;">Subject</th>
+                    <th style="text-align: center;">Present Classes</th>
+                    <th style="text-align: center;">Total Classes</th>
+                    <th style="text-align: center;">Percentage</th>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">Data Structures</td>
+                    <td style="text-align: center;">28</td>
+                    <td style="text-align: center;">32</td>
+                    <td style="text-align: center;">87.50%</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">Database Management Systems</td>
+                    <td style="text-align: center;">30</td>
+                    <td style="text-align: center;">32</td>
+                    <td style="text-align: center;">93.75%</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">Operating Systems</td>
+                    <td style="text-align: center;">26</td>
+                    <td style="text-align: center;">32</td>
+                    <td style="text-align: center;">81.25%</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">Computer Networks</td>
+                    <td style="text-align: center;">29</td>
+                    <td style="text-align: center;">32</td>
+                    <td style="text-align: center;">90.63%</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">Web Technologies</td>
+                    <td style="text-align: center;">27</td>
+                    <td style="text-align: center;">32</td>
+                    <td style="text-align: center;">84.38%</td>
+                </tr>
+            </table>
+            <br>
+            <a href="/AttendanceOverview">View Full Attendance Report</a>
+            </td>
+            <td style="width: 50%; vertical-align: top;">
+                <h2>Notifications</h2>
+                <table border="1" style="width: 100%; margin-top: 20px; text-align: center; border-collapse: collapse;">
+                    <tr>
+                        <th>Date</th>
+                        <th>Notice</th>
+                    </tr>
+                    <tr>
+                        <td>20 May 2024</td>
+                        <td>Internal Assessment 2 scheduled on 30 May.</td>
+                    </tr>
+                    <tr>
+                        <td>18 May 2024</td>
+                        <td>Workshop on Web Development on 25 May.</td>
+                    </tr>
+                    <tr>
+                        <td>15 May 2024</td>
+                        <td>Last date to submit DBMS mini project.</td>
+                    </tr>
+                    <tr>
+                        <td>10 May 2024</td>
+                        <td>Holiday on 17 May on account of University Day.</td>
+                    </tr>
+                    
+                </table>
+                <br>
+                <a href="/AllNotifications">View All Notifications</a>
+            </td>
+            </tr>
+            </table>
+            <h2>Semester Marks(Previous Semesters)</h2>
+            <table border="1" style="width: 80%; margin-top: 20px; text-align: center; border-collapse: collapse;">
+                <tr>
+                    <th rowspan="2">Semester</th>
+                    <th rowspan="2">SGPA</th>
+                    <th rowspan="2">Total Credits</th>
+                    <th colspan="5">Subject-Wise SGPA</th>
+                    <th rowspan="2">Result</th>
+                </tr>
+                <tr>
+                    <th>DS</th>
+                    <th>DBMS</th>
+                    <th>OS</th>
+                    <th>CN</th>
+                    <th>WT</th>
+                </tr>
+                <tr>
+                    <td>1st Semester</td>
+                    <td>8.2</td>
+                    <td>20</td>
+                    <td>8.0</td>
+                    <td>8.5</td>
+                    <td>8.3</td>
+                    <td>8.4</td>
+                    <td>8.0</td>
+                    <td>Pass</td>
+                </tr>
+                <tr>
+                    <td>2nd Semester</td>
+                    <td>8.5</td>
+                    <td>20</td>
+                    <td>8.2</td>
+                    <td>8.6</td>
+                    <td>8.4</td>
+                    <td>8.5</td>
+                    <td>8.3</td>
+                    <td>Pass</td>
+                </tr>
+                <tr>
+                    <td>3rd Semester</td>
+                    <td>8.7</td>
+                    <td>20</td>
+                    <td>8.5</td>
+                    <td>8.8</td>
+                    <td>8.6</td>
+                    <td>8.7</td>
+                    <td>8.4</td>
+                    <td>Pass</td>
+                </tr>
+                </tr>
+                
+                </table><br>
+        
+    </td>
+    </tr>
+    </table>
+<hr style="width: 100%; margin: auto; border: 0.5px solid black;"></hr>
+        <p style="text-align: center;">&#169; 2024 StudentPortal. All rights reserved.</p>
+    </body>
+</html>
