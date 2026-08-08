@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERP Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <div class="logo-icon">▦</div>
+                <h2>ERP System</h2>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="#" class="nav-item active">
+                    <span class="nav-icon">▣</span>
+                    <span>Dashboard</span>
+                </a>
+                <p class="nav-title">MAIN MODULES</p>
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">♙</span>
+                    <span>HR Management</span>
+                    <span class="arrow">›</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">▧</span>
+                    <span>Finance</span>
+                    <span class="arrow">›</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">▢</span>
+                    <span>Inventory</span>
+                    <span class="arrow">›</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">▥</span>
+                    <span>Sales</span>
+                    <span class="arrow">›</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">🛒</span>
+                    <span>Purchases</span>
+                    <span class="arrow">›</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">▣</span>
+                    <span>Projects</span>
+                    <span class="arrow">›</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">♡</span>
+                    <span>CRM</span>
+                    <span class="arrow">›</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">▥</span>
+                    <span>Reports</span>
+                    <span class="arrow">›</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">⚙</span>
+                    <span>Settings</span>
+                    <span class="arrow">›</span>
+                </a>
+            </nav>
+            <!--Support-->
+            <div class="support-box">
+                <div class="support-icon">◉</div>
+                <div>
+                    <strong>Need Help?</strong>
+                    <p>Contact Support</p>
+                </div>
+            </div>
+        </aside>
+        <main class="main-content">
+            <!-- Top Navigation -->
+            <header class="top-navbar">
+                <button class="menu-button">☰</button>
+                <div class="search-box">
+                    <input type="text" placeholder="Search anything...">
+                    <span class="search-icon">⌕</span>
+                </div>
+                <div class="admin-profile">
+                    <div class="profile-image">
+                        A
+                    </div>
+                    <div class="profile-info">
+                        <strong>Admin User</strong>
+                        <span>Administrator</span>
+                    </div>
+                    <span class="profile-arrow">⌄</span>
+                </div>
+            </header>
+            <!-- Dashboard Content -->
+            <section class="dashboard-content">
+                <div class="dashboard-header">
+                    <div>
+                        <h1>Welcome back, Admin! 👋</h1>
+                        <p>Here's what's happening with your business today.</p>
+                    </div>
+                    <div class="date-box">
+                        <strong>May 24, 2025</strong>
+                        <span>Saturday</span>
+                    </div>
+                </div>
+                <!-- Statistics Cards -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon revenue-icon">₹</div>
+                        <div class="stat-details">
+                            <p>Total Revenue</p>
+                            <h2>₹12,84,300</h2>
+                            <span>↑ 12.5% from last month</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon orders-icon">▤</div>
+                        <div class="stat-details">
+                            <p>Total Orders</p>
+                            <h2>1,245</h2>
+                            <span>↑ 8.3% from last month</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon products-icon">▣</div>
+                        <div class="stat-details">
+                            <p>Total Products</p>
+                            <h2>856</h2>
+                            <span>↑ 5.2% from last month</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon employees-icon">♙</div>
+                        <div class="stat-details">
+                            <p>Total Employees</p>
+                            <h2>248</h2>
+                            <span>↑ 3.1% from last month</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Analytics Section -->
+                <div class="analytics-grid">
+                    <!-- Revenue Overview -->
+                    <div class="analytics-card">
+                        <div class="card-header">
+                            <div>
+                                <h3>Revenue Overview</h3>
+                                <p>Monthly revenue performance</p>
+                            </div>
+                            <select>
+                                <option>2025</option>
+                                <option>2024</option>
+                                <option>2023</option>
+                            </select>
+                        </div>
+                        <div class="analytics-image">
+                            <img src="assets/revenue.png" alt="Monthly revenue chart">
+                        </div>
+                    </div>
+                    <!-- Sales by Category -->
+                    <div class="analytics-card">
+                        <div class="card-header">
+                            <div>
+                                <h3>Sales by Category</h3>
+                                <p>Current sales distribution</p>
+                            </div>
+                        </div>
+                        <div class="analytics-image">
+                            <img src="assets/sales.png" alt="Sales by category chart">
+                        </div>
+                    </div>
+                </div>
+                <!-- Recent Orders -->
+                <div class="orders-section">
+                    <div class="section-header">
+                        <div>
+                            <h3>Recent Orders</h3>
+                            <p>Latest orders from your customers</p>
+                        </div>
+                        <a href="#" class="view-all">View All</a>
+                    </div>
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Order ID</th>
+                                    <th>Customer</th>
+                                    <th>Date</th>
+                                    <th>Amount</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>#ORD-1001</td>
+                                    <td>John Doe</td>
+                                    <td>May 24, 2025</td>
+                                    <td>₹1,245.00</td>
+                                    <td>
+                                        <span class="status completed">Completed</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>#ORD-1002</td>
+                                    <td>Jane Smith</td>
+                                    <td>May 24, 2025</td>
+                                    <td>₹2,560.50</td>
+                                    <td>
+                                        <span class="status processing">Processing</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>#ORD-1003</td>
+                                    <td>Robert Brown</td>
+                                    <td>May 23, 2025</td>
+                                    <td>₹1,780.00</td>
+                                    <td>
+                                        <span class="status shipped">Shipped</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>#ORD-1004</td>
+                                    <td>Emily Davis</td>
+                                    <td>May 23, 2025</td>
+                                    <td>₹980.00</td>
+                                    <td>
+                                        <span class="status pending">Pending</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>#ORD-1005</td>
+                                    <td>Michael Wilson</td>
+                                    <td>May 22, 2025</td>
+                                    <td>₹3,450.75</td>
+                                    <td>
+                                        <span class="status completed">Completed</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <p>© 2026 ERP System. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Help Center</a>
+                </div>
+            </footer>
+        </main>
+    </div>
+</body>
+
+</html>
