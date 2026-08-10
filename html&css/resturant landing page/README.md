@@ -45,7 +45,7 @@ restaurant landing page/
 - Responsive Layout
 - Cards
 - Buttons
-- Image Positioning
+- Image Positioning.
 
 ---
 
