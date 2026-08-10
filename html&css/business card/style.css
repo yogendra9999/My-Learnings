@@ -1,0 +1,62 @@
+#business{
+    display:flex;
+    width:1000px;
+    margin:40px auto;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 0 20px rgba(0,0,0,0.2);
+}
+
+.business-photo{
+    width:35%;
+    background:#0b57d0;
+    color:white;
+    padding:40px 20px;
+    text-align:center;
+}
+.business-photo img{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+
+}
+.business-card{
+    width:65%;
+    background:white;
+    padding:40px;
+}
+/* Connect Section */
+.connect{
+    margin-top: 30px;
+}
+
+.connect h2{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.connect p{
+    display: none;   /* Hide the extra paragraph */
+}
+
+.social{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.social img{
+    width: 55px;
+    height: 55px;
+    padding: 12px;
+    border: 2px solid #0b57d0;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social img:hover{
+    background: #0b57d0;
+    transform: scale(1.1);
+}
